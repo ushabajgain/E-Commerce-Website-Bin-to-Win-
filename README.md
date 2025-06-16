@@ -35,7 +35,7 @@ git clone https://github.com/ushabajgain/E-Commerce-Website-Bin-to-Win-.git
 cd E-Commerce-Website-Bin-to-Win-
 
 ### Backend Setup
-cd MoneyTrackerProject       # Example backend folder name
+cd backend folder    
 python3 -m venv env
 source env/bin/activate      # On Windows: env\Scripts\activate
 pip install -r requirements.txt
@@ -43,7 +43,7 @@ python manage.py migrate
 python manage.py runserver
 
 ### Frontend setup
-cd frontend-folder
+cd frontend folder
 npm install
 npm run dev
 
